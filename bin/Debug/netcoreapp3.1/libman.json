@@ -27,11 +27,10 @@
     {
       "library": "datatables@1.10.21",
       "destination": "wwwroot/lib/datatables/"
+    },
+    {
+      "library": "font-awesome@5.15.2",
+      "destination": "wwwroot/lib/font-awesome/"
     }
-  ,
-{
-  "library": "font-awesome@5.15.2",
-  "destination": "wwwroot/font-awesome/"
-}
-]
+  ]
 }
