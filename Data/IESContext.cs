@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Capitulo01.Models;
+using Modelo.Cadastros;
 using Microsoft.EntityFrameworkCore;
 
 namespace Capitulo01.Data
@@ -26,17 +26,28 @@ namespace Capitulo01.Data
                     return;
                 }
 
+                var instituicoes = new Instituicao[]
+                {
+                    new Instituicao { Nome = "UniParaná", Endereco = "Paraná"},
+                    new Instituicao { Nome = "UniCarioca", Endereco = "Rio de Janeiro"}
+                };
+
+                foreach (Instituicao i in instituicoes)
+                {
+                    context.Instituicoes.Add(i);
+                }
+                context.SaveChanges();
+
                 var departamentos = new Departamento[]
                 {
-                    new Departamento { Nome = "Ciência de Computação" },
-                    new Departamento { Nome = "Ciência de Alimentos" }
+                    new Departamento { Nome = "Ciência de Computação", InstituicaoID = 1 },
+                    new Departamento { Nome = "Ciência de Alimentos", InstituicaoID = 2 }
                 };
 
                 foreach (Departamento d in departamentos)
                 {
                     context.Departamentos.Add(d);
                 }
-
                 context.SaveChanges();
             }
         }
