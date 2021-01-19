@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Modelo.Cadastros;
 using Microsoft.EntityFrameworkCore;
+using Modelo.Discente;
 
 namespace Capitulo01.Data
 {
@@ -12,8 +13,28 @@ namespace Capitulo01.Data
         public IESContext(DbContextOptions<IESContext> options) : base(options){}
 
         public DbSet<Departamento> Departamentos { get; set; }
-
         public DbSet<Instituicao> Instituicoes { get; set; }
+        public DbSet<Curso> Cursos { get; set; }
+        public DbSet<Disciplina> Disciplinas { get; set; }
+        public DbSet<Academico> Academicos { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<CursoDisciplina>()
+                .HasKey(cd => new { cd.CursoID, cd.DisciplinaID });
+
+            modelBuilder.Entity<CursoDisciplina>()
+                .HasOne(c => c.Curso)
+                .WithMany(c => c.CursosDisciplinas)
+                .HasForeignKey(c => c.CursoID);
+
+            modelBuilder.Entity<CursoDisciplina>()
+                .HasOne(c => c.Disciplina)
+                .WithMany(c => c.CursosDisciplinas)
+                .HasForeignKey(c => c.DisciplinaID);
+        }
 
         public class IESDbInitializer
         {

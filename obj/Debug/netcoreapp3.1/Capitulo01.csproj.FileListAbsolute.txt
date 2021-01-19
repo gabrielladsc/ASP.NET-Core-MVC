@@ -166,3 +166,7 @@ C:\Users\gabri\source\repos\Capitulo01\obj\Debug\netcoreapp3.1\Razor\Views\Insti
 C:\Users\gabri\source\repos\Capitulo01\bin\Debug\netcoreapp3.1\Modelo.dll
 C:\Users\gabri\source\repos\Capitulo01\bin\Debug\netcoreapp3.1\Modelo.pdb
 C:\Users\gabri\source\repos\Capitulo01\obj\Debug\netcoreapp3.1\Razor\Views\Instituicao\_PartialDetailsContentCard.cshtml.g.cs
+C:\Users\gabri\source\repos\Capitulo01\obj\Debug\netcoreapp3.1\Razor\Views\Departamento\_PartialDetailsContentCard.cshtml.g.cs
+C:\Users\gabri\source\repos\Capitulo01\obj\Debug\netcoreapp3.1\Razor\Views\Academico\Index.cshtml.g.cs
+C:\Users\gabri\source\repos\Capitulo01\obj\Debug\netcoreapp3.1\Razor\Views\Academico\Create.cshtml.g.cs
+C:\Users\gabri\source\repos\Capitulo01\obj\Debug\netcoreapp3.1\Razor\Views\Academico\_PartialDetailsContentCard.cshtml.g.cs

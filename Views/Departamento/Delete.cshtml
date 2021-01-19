@@ -18,10 +18,8 @@
 }
 
 <div class="card-block">
-    <div class="card-header text-white bg-secondary text-center h1">Exibindo uma instituição existente</div>
-    <div class="card-body">
-        @{ await Html.RenderPartialAsync("~/Views/Instituicao/_PartialDetailsContentCard.cshtml", Model);}
-    </div>
+    <div class="card-header text-white bg-secondary text-center h1">Exibindo um departamento existente</div>
+    @{ await Html.RenderPartialAsync("~/Views/Departamento/_PartialDetailsContentCard.cshtml", Model);}
     <div class="card-footer	bg-info	text-center	text-white">
         <a asp-action="Index" class="btn btn-danger">
             Retornar a listagem de departamentos
