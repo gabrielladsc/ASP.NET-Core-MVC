@@ -26,9 +26,23 @@ using Capitulo01.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\gabri\source\repos\Capitulo01\Views\_ViewImports.cshtml"
+using Modelo;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "C:\Users\gabri\source\repos\Capitulo01\Views\_ViewImports.cshtml"
+using Modelo.Cadastros;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a4cadaa39c35b9af77c5575f03bda51163bfddad", @"/Views/Instituicao/_ComDepartamentos.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"163f9292969fb8179ac587afebe98b55a108e86a", @"/Views/_ViewImports.cshtml")]
-    public class Views_Instituicao__ComDepartamentos : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<Capitulo01.Models.Departamento>>
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"912a53cd8de081994f5d6914c1cdd76346545f0e", @"/Views/_ViewImports.cshtml")]
+    public class Views_Instituicao__ComDepartamentos : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<Modelo.Cadastros.Departamento>>
     {
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
@@ -88,7 +102,7 @@ using Capitulo01.Models;
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
         public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<IEnumerable<Capitulo01.Models.Departamento>> Html { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<IEnumerable<Modelo.Cadastros.Departamento>> Html { get; private set; }
     }
 }
 #pragma warning restore 1591
