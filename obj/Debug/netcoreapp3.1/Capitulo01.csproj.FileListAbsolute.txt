@@ -178,3 +178,8 @@ C:\Users\gabri\source\repos\Capitulo01\bin\Debug\netcoreapp3.1\Microsoft.Extensi
 C:\Users\gabri\source\repos\Capitulo01\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\gabri\source\repos\Capitulo01\obj\Debug\netcoreapp3.1\Razor\Views\Infra\Acessar.cshtml.g.cs
 C:\Users\gabri\source\repos\Capitulo01\obj\Debug\netcoreapp3.1\Razor\Views\Infra\RegistrarNovoUsuario.cshtml.g.cs
+C:\Users\gabri\source\repos\Capitulo01\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\gabri\source\repos\Capitulo01\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\gabri\source\repos\Capitulo01\obj\Debug\netcoreapp3.1\Razor\Areas\Discente\Views\Academico\Details.cshtml.g.cs
+C:\Users\gabri\source\repos\Capitulo01\obj\Debug\netcoreapp3.1\Razor\Areas\Discente\Views\Academico\Edit.cshtml.g.cs
+C:\Users\gabri\source\repos\Capitulo01\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Erro404.cshtml.g.cs
