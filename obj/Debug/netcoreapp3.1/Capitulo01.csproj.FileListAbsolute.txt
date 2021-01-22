@@ -183,3 +183,6 @@ C:\Users\gabri\source\repos\Capitulo01\bin\Debug\netcoreapp3.1\System.IO.Pipelin
 C:\Users\gabri\source\repos\Capitulo01\obj\Debug\netcoreapp3.1\Razor\Areas\Discente\Views\Academico\Details.cshtml.g.cs
 C:\Users\gabri\source\repos\Capitulo01\obj\Debug\netcoreapp3.1\Razor\Areas\Discente\Views\Academico\Edit.cshtml.g.cs
 C:\Users\gabri\source\repos\Capitulo01\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Erro404.cshtml.g.cs
+C:\Users\gabri\source\repos\Capitulo01\obj\Debug\netcoreapp3.1\Razor\Areas\Docente\Views\_ViewImports.cshtml.g.cs
+C:\Users\gabri\source\repos\Capitulo01\obj\Debug\netcoreapp3.1\Razor\Areas\Docente\Views\Professor\AdicionarProfessor.cshtml.g.cs
+C:\Users\gabri\source\repos\Capitulo01\obj\Debug\netcoreapp3.1\Razor\Areas\Docente\Views\Professor\VerificarUltimosRegistros.cshtml.g.cs

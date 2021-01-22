@@ -30,6 +30,9 @@ namespace Capitulo01
             services.AddDbContext<IESContext>(options => options.UseSqlServer(Configuration.GetConnectionString("IESConnection")));
             services.AddControllersWithViews();
 
+            services.AddSession();
+            services.AddDistributedMemoryCache();
+
             services.AddIdentity<UsuarioDaAplicacao, IdentityRole>().AddEntityFrameworkStores<IESContext>().AddDefaultTokenProviders();
             services.ConfigureApplicationCookie(options =>
             {
@@ -56,6 +59,8 @@ namespace Capitulo01
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
+            app.UseSession();
 
             app.UseRouting();
 
